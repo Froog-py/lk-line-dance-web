@@ -1,8 +1,8 @@
 /* Line Dance Library — web (PWA) sibling of the native app.
    Shares the native JSON export schema so a library here imports into the iOS app later. */
 
-// ---- Birthday banner: today only. Set to false tomorrow to remove it. ----
-const SHOW_BIRTHDAY = true;
+// ---- Birthday banner: shown once for Ana's birthday, now retired. Set true to re-enable. ----
+const SHOW_BIRTHDAY = false;
 
 const STORAGE_KEY = "ldb.songs.v1";
 const SEED_FLAG = "ldb.seeded.v1";

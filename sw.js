@@ -1,4 +1,4 @@
-const CACHE = "ldb-v1";
+const CACHE = "ldb-v2";
 const ASSETS = [
   "./",
   "index.html",
