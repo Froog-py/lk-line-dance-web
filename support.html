@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Support — Line Dance Library</title>
+  <meta name="description" content="Help and contact for the Line Dance Library app." />
+  <meta name="theme-color" content="#8F6FE2" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png" />
+  <style>
+    :root {
+      --lavender: #8F6FE2;
+      --lavender-deep: #7351C6;
+      --bg: #F6F3FD;
+      --card: #FFFFFF;
+      --text: #1c1b24;
+      --secondary: #6c6677;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 40px 20px 80px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.6;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    .card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 32px 28px;
+      box-shadow: 0 6px 24px rgba(98, 70, 160, 0.10);
+    }
+    h1 {
+      font-size: 32px; margin: 0 0 4px; letter-spacing: -0.02em;
+      background: linear-gradient(120deg, var(--lavender-deep), var(--lavender));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .sub { color: var(--secondary); font-size: 15px; margin: 0 0 26px; }
+    h2 { font-size: 17px; margin: 26px 0 6px; }
+    p, li { font-size: 15.5px; }
+    a { color: var(--lavender-deep); }
+    .contact {
+      background: rgba(143, 111, 226, 0.09);
+      border-left: 3px solid var(--lavender);
+      border-radius: 10px;
+      padding: 16px;
+      margin: 22px 0 6px;
+    }
+    .contact p { margin: 0; }
+    footer { text-align: center; color: var(--secondary); font-size: 13px; margin-top: 28px; }
+    footer a { color: var(--secondary); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Support</h1>
+      <p class="sub">Line Dance Library — help, answers, and how to reach a human.</p>
+
+      <div class="contact">
+        <p><strong>Need help or found a bug?</strong> Email
+        <a href="mailto:CONTACT_EMAIL_PLACEHOLDER">CONTACT_EMAIL_PLACEHOLDER</a> and you'll get a
+        real reply. Tell me what you were doing and what happened.</p>
+      </div>
+
+      <h2>How do I add a song?</h2>
+      <p>Two ways. Tap the listen button on the Listen tab to recognize a song playing nearby — it
+      gets added with its title, artist, and album art filled in. Or tap <strong>+</strong> in the
+      Library to add one by hand.</p>
+
+      <h2>Recognition isn't finding the song</h2>
+      <p>Move closer to the speaker and try again — it needs a few seconds of reasonably clear
+      audio, and it can't identify live or cover performances. Make sure you allowed microphone
+      access when asked (Settings → Line Dance Library → Microphone). The app only listens while
+      you're holding it on that screen; never in the background.</p>
+
+      <h2>Why doesn't my hand-added song have album art?</h2>
+      <p>Artwork comes automatically from song recognition. For a song you typed in yourself, you
+      can add your own image: open the song, tap <strong>Edit</strong>, and pick a photo.</p>
+
+      <h2>What do Yup, Practicing, and Nope mean?</h2>
+      <p>They're your learning status — whether you've got the dance down, you're working on it, or
+      you haven't learned it yet. Every song starts at "Nope." It's just for you.</p>
+
+      <h2>How do I share my library with a friend?</h2>
+      <p>In the Library, tap the <strong>•••</strong> menu → <strong>Export Library</strong>, and
+      send the file however you like. Your friend uses <strong>Import Library</strong> on their
+      end.</p>
+      <p>Two things worth knowing: your <strong>learning status is never included</strong> in an
+      export — your progress stays private. And importing <strong>never overwrites</strong> what you
+      already have; it only adds songs that are new to you.</p>
+
+      <h2>Where is my data stored?</h2>
+      <p>Entirely on your own device. There are no accounts and no servers. That also means the app
+      can't restore your library if you delete it — export a copy if you'd like a backup. See the
+      <a href="privacy.html">privacy policy</a> for the full picture.</p>
+
+      <h2>Is there a web version?</h2>
+      <p>Yes — <a href="./">open it here</a>. It carries your library, tags, and Spotify links, but
+      song recognition is only in the iOS app.</p>
+
+      <footer>
+        <a href="./">← Back to Line Dance Library</a> · <a href="privacy.html">Privacy Policy</a>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
